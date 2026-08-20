@@ -352,7 +352,7 @@ footer {
         text-decoration: none;
         color: #475569;
         font-size: 15px;
-        font-weight: bold !important;
+        font-weight: bold;
         transition: 0.3s;
     }
 
