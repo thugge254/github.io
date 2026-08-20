@@ -345,6 +345,7 @@ footer {
 
     .nav-links {
         gap: 15px;
+        font-weight: bold;
     }
 
     .nav-links a {
@@ -354,7 +355,7 @@ footer {
         font-weight: bold;
         transition: 0.3s;
     }
-    
+
     .hero {
         padding: 70px 5%;
     }
