@@ -36,6 +36,10 @@ body {
     font-size: 14px;
 }
 
+.nav-links a:hover {
+    color: #00C4CC;
+}
+
 /* Hero Section */
 .hero {
     display: flex;
