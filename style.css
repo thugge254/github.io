@@ -348,9 +348,13 @@ footer {
     }
 
     .nav-links a {
-        font-size: 13px;
+        text-decoration: none;
+        color: #475569;
+        font-size: 15px;
+        font-weight: bold;
+        transition: 0.3s;
     }
-
+    
     .hero {
         padding: 70px 5%;
     }
