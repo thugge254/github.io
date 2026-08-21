@@ -225,7 +225,6 @@ body {
 
 .project-link:hover {
   color: #5D62E4;
-  text-decoration: underline;
 }
 
 /*Skills Section*/
@@ -384,7 +383,7 @@ body {
 /* Social Links Bar */
 .social-links {
   display: flex;
-  gap: 12px;
+  gap: 18px;
   justify-content: center;
   align-self: center;
   margin-top: 24px;
