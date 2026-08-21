@@ -151,6 +151,15 @@ body {
 /* Projects Section*/
 .projects-section {
   padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-section h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 28px;
+  font-weight: 700;
 }
 
 .projects-container {
@@ -160,10 +169,34 @@ body {
 }
 
 .project-card {
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid #334155;
   background-color: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #5D62E4;
+}
+
+.project-card h3 {
+  color: #f8fafc;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  line-height: 1.35;
+}
+
+.project-card p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 .tags span {
@@ -172,6 +205,30 @@ body {
   color: #00BDC4;
 }
 
+/* Container Layout */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+/* Link Styling */
+.project-link {
+  color: #5D62E4;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+
+.project-link:hover {
+  color: #00BDC4;
+  text-decoration: underline;
+}
+
+/*Skills Section*/
 .skills-section {
     padding: 60px 20px;
     max-width: 900px;
