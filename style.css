@@ -215,7 +215,7 @@ body {
 
 /* Link Styling */
 .project-link {
-  color: #5D62E4;
+  color: #00BDC4;
   font-weight: 600;
   font-size: 0.95rem;
   text-decoration: none;
@@ -224,7 +224,7 @@ body {
 }
 
 .project-link:hover {
-  color: #00BDC4;
+  color: #5D62E4;
   text-decoration: underline;
 }
 
