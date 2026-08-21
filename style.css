@@ -385,8 +385,9 @@ body {
 .social-links {
   display: flex;
   gap: 12px;
-  align-self: flex-start;
-  margin-top: auto;
+  justify-content: center;
+  align-self: center;
+  margin-top: 24px;
 }
 
 .social-links a {
