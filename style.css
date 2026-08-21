@@ -386,8 +386,6 @@ body {
         gap: 0;
     }
 }
-
-
 /* Contact Section*/
 
 .contact-section {
@@ -531,3 +529,19 @@ body {
   visibility: visible;
 }
 
+/* Normal and Visited State */
+.contact-text a,
+.contact-text a:visited {
+  color: #94a3b8;
+  text-decoration: none;
+}
+
+/* Hover State */
+.contact-text a:hover {
+  color: #00BDC4;
+}
+
+/* Active State (When Clicked) - Stops the red turn */
+.contact-text a:active {
+  color: #00BDC4;
+}
