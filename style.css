@@ -280,7 +280,7 @@ body {
 
 .contact-item {
   display: flex;
-  align-items: left;
+  align-items: center;
   gap: 30px;
 }
 
