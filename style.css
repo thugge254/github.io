@@ -280,8 +280,8 @@ body {
 
 .contact-item {
   display: flex;
-  align-items: center;
-  gap: 20px;
+  align-items: left;
+  gap: 30px;
 }
 
 /* Gradient Icon Circles */
