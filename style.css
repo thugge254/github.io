@@ -235,3 +235,38 @@ body {
         gap: 0;
     }
 }
+
+/* "Scroll to Top" button */
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #00BDC4, #5D62E4);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  
+  /* Initially hidden until the user scrolls down */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.2s ease;
+  z-index: 1000;
+}
+
+#scrollTopBtn:hover {
+  transform: translateY(-3px);
+}
+
+/* Class added by JavaScript to display the button */
+#scrollTopBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
