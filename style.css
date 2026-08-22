@@ -40,14 +40,27 @@ body {
     color: #5D62E4;
 }
 
-/* Hero Section */
-.hello {
+/* Hello Section */
+section.hello {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    align-items: center;    
+    justify-content: center; 
+    text-align: center;      
+    width: 100%;             
+    box-sizing: border-box;  
     padding: 40px 20px;
+}
+
+/* Reset margins and ensure children align to center */
+.hello .greeting,
+.hello .name-title,
+.hello .role-title,
+.hello .subtext {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .greeting {
