@@ -43,7 +43,7 @@ body {
 /****************************************/
 /************* Hello Section ***********/
 /***************************************/
-section.hello {
+.hello {
     display: flex;
     flex-direction: column;
     align-items: center;    
