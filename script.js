@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const scrollTopBtn = document.getElementById("scrollTopBtn");
 
   if (scrollTopBtn) {
+
     // Show/hide button based on scroll position
     window.addEventListener("scroll", () => {
       if (window.scrollY > 300) {
@@ -39,3 +40,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
