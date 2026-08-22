@@ -577,3 +577,19 @@ body {
   visibility: visible;
 }
 
+/* Footer Section */
+.footer {
+  width: 100%;
+  background-color: #0b131e; 
+  padding: 20px 0;           
+  text-align: center;         
+  border-top: 1px solid rgba(255, 255, 255, 0.05); 
+}
+
+.footer p {
+  color: #a0aec0;            
+  font-size: 0.9rem;          
+  margin: 0;                 
+  font-family: inherit;       
+}
+
