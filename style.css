@@ -40,14 +40,15 @@ body {
     color: #5D62E4;
 }
 
-/* Hello Section */
+/****************************************/
+/************* Hello Section ***********/
+/***************************************/
 section.hello {
     display: flex;
     flex-direction: column;
     align-items: center;    
     justify-content: center; 
-    text-align: center;      
-    width: 100%;             
+    text-align: center;               
     box-sizing: border-box;  
     padding: 40px 20px;
 }
