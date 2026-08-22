@@ -47,8 +47,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 65vh;
-    padding: 0 20px;
+    padding: 40px 20px;
 }
 
 .greeting {
