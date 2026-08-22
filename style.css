@@ -130,8 +130,9 @@ body {
     background-color: #00cec9;
     color: #0b0c10;
 }
-
-/* About Section Base */
+/********************************************/
+/********* About Section Base ***************/
+/********************************************/
 .about-section {
   padding: 80px 20px;
   background-color: #0b0f19;
@@ -221,8 +222,9 @@ body {
   }
 }
 
-
-/* Skill Badges */
+/********************************************/
+/*************** Skill Section **************/
+/********************************************/
 .skills-container {
   display: flex;
   flex-wrap: wrap;
@@ -239,7 +241,79 @@ body {
   border: 1px solid #334155;
 }
 
-/* Projects Section*/
+/********************************************/
+/************** Skills Section **************/
+/********************************************/
+.skills-section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.underline {
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #6c5ce7, #00cec9);
+    margin: 0 auto 40px auto;
+    border-radius: 2px;
+}
+
+/* Two-column layout */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    text-align: left;
+}
+
+.skill-item {
+    margin-bottom: 24px;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    color: #c5c6c7;
+    margin-bottom: 8px;
+}
+
+/* Base track */
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background-color: #1f2833;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Colored fill line */
+.progress {
+    height: 100%;
+    background: linear-gradient(90deg, #6c5ce7, #00cec9);
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+/********************************************/
+/************ Projects Section **************/
+/********************************************/
 .projects-section {
   padding: 60px 20px;
   max-width: 1200px;
@@ -318,75 +392,22 @@ body {
   color: #5D62E4;
 }
 
-/*Skills Section*/
-.skills-section {
-    padding: 60px 20px;
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
+
+
+/********************************************/
+/*********** Education Section **************/
+/********************************************/
+.project-card .institution {
+  color: #00BDC4;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 12px;
 }
 
-.section-title {
-    font-size: 32px;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 8px;
-}
 
-.underline {
-    width: 60px;
-    height: 3px;
-    background: linear-gradient(90deg, #6c5ce7, #00cec9);
-    margin: 0 auto 40px auto;
-    border-radius: 2px;
-}
-
-/* Two-column layout */
-.skills-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    text-align: left;
-}
-
-.skill-item {
-    margin-bottom: 24px;
-}
-
-.skill-info {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    font-weight: 500;
-    color: #c5c6c7;
-    margin-bottom: 8px;
-}
-
-/* Base track */
-.progress-bar {
-    width: 100%;
-    height: 6px;
-    background-color: #1f2833;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-/* Colored fill line */
-.progress {
-    height: 100%;
-    background: linear-gradient(90deg, #6c5ce7, #00cec9);
-    border-radius: 10px;
-    transition: width 1s ease-in-out;
-}
-
-/* Responsive adjustment for small screens */
-@media (max-width: 768px) {
-    .skills-grid {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-}
-/* Contact Section*/
+/********************************************/
+/************** Contact Section ************/
+/********************************************/
 
 .contact-section {
   background-color: #0b0f19;
