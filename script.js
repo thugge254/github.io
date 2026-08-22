@@ -41,3 +41,5 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// update footer copyright year
+document.getElementById("year").textContent = new Date().getFullYear();
