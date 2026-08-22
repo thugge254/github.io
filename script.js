@@ -39,9 +39,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
-
-<div class="contact-text">
-  <span class="label">Email</span>
-  <a href="mailto:chegemoseskamau@gmail.com" id="emailLink">chegemoseskamau@gmail.com</a>
-</div>
